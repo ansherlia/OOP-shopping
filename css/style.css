@@ -1,0 +1,196 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+body {
+	max-width: 1600px;
+	margin: auto;
+	background-color: antiquewhite;
+	background: linear-gradient(
+		90deg,
+		rgba(2, 0, 36, 1) 0%,
+		rgba(230, 223, 56, 1) 0%,
+		rgba(0, 212, 255, 0.29313732328869047) 96%
+	);
+}
+main {
+	display: flex;
+	/* align-items: center; */
+	justify-content: space-between;
+}
+#card {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	/* margin: 100px auto; */
+}
+#card > div {
+	width: 320px;
+	height: 455px;
+	background-color: aliceblue;
+	padding: 20px;
+	margin: 20px 20px;
+	box-shadow: 4px 7px 100px 12px #ffffff;
+	border-radius: 20px;
+}
+#card img {
+	width: 290px;
+	/* padding: 15px; */
+}
+#infoEle {
+	background-color: #eedeee;
+	padding: 20px;
+	height: 90px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border-radius: 20px;
+}
+#infoEle h3 {
+	font-size: 1.5rem;
+	color: rgb(7, 50, 145);
+	/* box-shadow: 4px 4px 10px 20px gray; */
+}
+#priceEle {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px 10px;
+	box-shadow: 4px 4px 10px 10px rgb(238, 209, 209);
+	border-radius: 10px;
+}
+#priceEle span {
+	font-size: 1.3rem;
+	font-weight: 700;
+	color: #4374b4;
+}
+#priceEle button {
+	border: none;
+	padding: 5px 10px;
+	font-size: 1.4rem;
+	border-radius: 20px;
+	cursor: pointer;
+	transition: all 0.3s linear;
+}
+#priceEle button:hover {
+	background-color: violet;
+	color: #fff;
+}
+h1 {
+	background: linear-gradient(
+		90deg,
+		rgba(2, 0, 36, 1) 0%,
+		rgba(230, 223, 56, 1) 0%,
+		rgba(0, 212, 255, 0.29313732328869047) 96%
+	);
+	color: #4374b4;
+	margin: 100px auto;
+	font-size: 3rem;
+	padding: 15px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+h2 {
+	color: #ffffff;
+	font-size: 2.5rem;
+	background-color: #ec2207;
+	width: 290px;
+	margin: 20px 0px;
+	padding: 5px 10px;
+	text-align: center;
+	border-radius: 20px;
+}
+#card-list {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+#card-list h5 {
+	font-size: 1.6rem;
+	text-align: center;
+	margin: auto;
+	color: rgb(240, 89, 19);
+}
+#card-list > div {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	/* margin: auto; */
+	border: 2px solid red;
+	width: 300px;
+
+	/* margin: auto; */
+	/* height: 80px; */
+
+	border-radius: 20px;
+	margin: 20px auto;
+}
+#card-list img {
+	width: 50px;
+	padding: 5px 10px;
+	margin: 20px 0;
+}
+#info-ele {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	/* text-align: center; */
+	color: #c25534;
+	font-weight: 700;
+}
+#info-ele p {
+	margin-bottom: 20px;
+}
+#control-element {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+#control-element div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+#control-element div span {
+	display: block;
+	margin-right: 12px;
+}
+#control-element div > button {
+	margin-right: 15px;
+	border: none;
+	padding: 2px 7px;
+	border-radius: 10px;
+	font-size: 1rem;
+	transition: all 1s ease;
+	cursor: pointer;
+}
+#control-element div > button:hover {
+	background-color: rgb(156, 30, 156);
+	color: #fff;
+}
+#control-element > button {
+	margin-right: 15px;
+	border: 1.5px solid red;
+	padding: 2px 7px;
+	border-radius: 10px;
+	font-size: 1rem;
+	cursor: pointer;
+	transition: all 0.4s ease;
+}
+#remove:hover {
+	color: #eedeee;
+	background-color: red;
+}
+
+#total-price {
+	padding: 20px 10px;
+	border-radius: 10px;
+	border: 2px solid red;
+	margin: 20px 10px;
+}
